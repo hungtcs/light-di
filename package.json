@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "ts-node ./src/main.ts",
+    "build": "rm -rf ./dist && tsc --build tsconfig.json"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
